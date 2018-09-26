@@ -1,0 +1,3787 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f60c8d2ebe4104b7231ad402a6635e1b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "854e3a4f26ba1242853e99b2289c021f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "466568fb4974fdbbcc6567ded1b7d772",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9f6c12b21d25cbccb0e9151e652f425f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6d17efe4a76ae5419a1ee341312ff104",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "51c6de0784db6987e20883ef6a18b532",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-lodash": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-lodash",
+      "id": "Plugin gatsby-plugin-lodash",
+      "name": "gatsby-plugin-lodash",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-lodash",
+      "packageJson": {
+        "name": "gatsby-plugin-lodash",
+        "description": "Easy modular Lodash builds. Adds the Lodash webpack & Babel plugins to your Gatsby build",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-lodash",
+            "version": "^3.2.11"
+          },
+          {
+            "name": "lodash-webpack-plugin",
+            "version": "^0.11.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4168ad770bb8f4e6f9739a627a648803",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f29f19f064bbc0595addf347db843377",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/home/jon/Source/civichackathons/content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "27a689e2afeb82f675607b8df78442a5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-relative-images",
+            "id": "Plugin gatsby-remark-relative-images",
+            "name": "gatsby-remark-relative-images",
+            "version": "0.1.2",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-relative-images"
+          },
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "2.0.1",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 672,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.5",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.5",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.5",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-autolink-headers",
+            "id": "Plugin gatsby-remark-autolink-headers",
+            "name": "gatsby-remark-autolink-headers",
+            "version": "2.0.5",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onClientEntry",
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [
+              "onRenderBody"
+            ],
+            "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-autolink-headers"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7389f9decad03cc933f9eea94b7d6635",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-relative-images": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-relative-images",
+      "id": "Plugin gatsby-remark-relative-images",
+      "name": "gatsby-remark-relative-images",
+      "version": "0.1.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-relative-images",
+      "packageJson": {
+        "name": "gatsby-remark-relative-images",
+        "description": "Convert image src(s) in markdown to be relative to their node's parent directory. This will help gatsby-remark-images match images outside the node folder. For example, use with NetlifyCMS.",
+        "version": "0.1.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "relative",
+          "netlifycms",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Daniel Mahon <daniel@mahonstudios.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "cheerio",
+            "version": "1.0.0-rc.2"
+          },
+          {
+            "name": "deep-map",
+            "version": "1.5.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "4.17.5"
+          },
+          {
+            "name": "slash",
+            "version": "2.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "cross-env",
+            "version": "5.1.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bada67c3537eb1f13a593faf413ba090",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 672,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be024288a4f3fbd71b4046e4636d5f26",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "baf5fe2ff3054166a9c0a2c24f9887fe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f424f3c67e51b387089076e0a6c07202",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8307676a43b3b7b856387ba11c4a3bd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-autolink-headers": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-autolink-headers",
+      "id": "Plugin gatsby-remark-autolink-headers",
+      "name": "gatsby-remark-autolink-headers",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry",
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-remark-autolink-headers",
+      "packageJson": {
+        "name": "gatsby-remark-autolink-headers",
+        "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "github-slugger",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "320df01606af78d14ac215217eea2e87",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-126467703-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9d72964f8e11af70e2f3905435f42039",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#c62828"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry",
+        "onRouteUpdateDelayed",
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4c854db7162290ec110783fce200008c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cb5300e70ace78740b79b6c6ca445143",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b3c94c483836f90ca3b94db34b54c150",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d0530202e1e57789e530a8347a702a9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify-cms": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-netlify-cms",
+      "id": "Plugin gatsby-plugin-netlify-cms",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": "Shawn Erquhart <shawn@erquh.art>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "friendly-errors-webpack-plugin",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0-beta.29"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ef11ae4255767f495196c127261f8f61",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-twitter": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-twitter",
+      "id": "Plugin gatsby-plugin-twitter",
+      "name": "gatsby-plugin-twitter",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-twitter",
+      "packageJson": {
+        "name": "gatsby-plugin-twitter",
+        "description": "Stub description for gatsby-plugin-twitter",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8b69f8d2f32410ee7cea208c6ef1308c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "output": "/sitemap.xml",
+        "query": "\n          {\n            site {\n              siteMetadata {\n                siteUrl\n              }\n            }\n\n            allSitePage(\n              filter: {\n                path: {\n                  regex: \"/^(?!\\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/\"\n                }\n              }\n            ) {\n              edges {\n                node {\n                  path\n                }\n              }\n            }\n        }"
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "59ed4073e6ef7edc7098152ed36aa3c0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Civic Hackathons",
+        "short_name": "Civic Hacks",
+        "description": "A Civic Hackathon Guide and Resources.",
+        "start_url": "/gatsby-material-starter",
+        "background_color": "#e0e0e0",
+        "theme_color": "#c62828",
+        "display": "minimal-ui",
+        "icons": [
+          {
+            "src": "/logos/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/logos/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2989c97f399763780cc0fda579daeed3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.4.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f773ab9e3dfd8b45e5800ffe5b01a29b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-feed": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-feed",
+      "id": "Plugin gatsby-plugin-feed",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "query": "\n        {\n          site {\n            siteMetadata {\n              rssMetadata {\n                site_url\n                feed_url\n                title\n                description\n                image_url\n                author\n                copyright\n              }\n            }\n          }\n        }\n      ",
+        "feeds": [
+          {
+            "query": "\n            {\n              allMarkdownRemark(\n                limit: 1000,\n                sort: { order: DESC, fields: [frontmatter___date] },\n              ) {\n                edges {\n                  node {\n                    excerpt\n                    html\n                    timeToRead\n                    fields { slug }\n                    frontmatter {\n                      title\n                      cover\n                      date\n                      category\n                      tags\n                    }\n                  }\n                }\n              }\n            }\n          ",
+            "output": "/rss.xml"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d838212bf80b094bf688a102b4b2f067",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/jon/Source/civichackathons",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "1ad677835d266e16e003ff3a151f9643",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons",
+      "packageJson": {
+        "name": "gatsby-starter-material",
+        "description": "GatsbyJS Material Blog theme.",
+        "version": "2.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-polyfill",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "font-awesome",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "2.0.0"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-lodash",
+            "version": "3.0.1"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "2.0.1"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "2.0.1"
+          },
+          {
+            "name": "gatsby-plugin-twitter",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-remark-autolink-headers",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "2.0.1"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-remark-relative-images",
+            "version": "0.1.2"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.5"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "2.0.1"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "2.1.1"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "2.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "moment",
+            "version": "^2.22.2"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "2.1.1"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.3.1"
+          },
+          {
+            "name": "react-disqus-comments",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.3.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-md",
+            "version": "^1.2.9"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "react-twitter-widgets",
+            "version": "^1.7.1"
+          },
+          {
+            "name": "url-join",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cli-glob",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^16.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.8.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.0.3"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.5.1"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.9.2"
+          },
+          {
+            "name": "remark-cli",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-preset-lint-recommended",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "stylefmt",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "stylelint",
+            "version": "^9.2.0"
+          },
+          {
+            "name": "stylelint-config-standard",
+            "version": "^18.0.0"
+          },
+          {
+            "name": "write-good",
+            "version": "^0.11.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d67826be340ad343e849d0d87a51135c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/jon/Source/civichackathons/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dca4e1a07cf9ab6e37f2d91bd1be4983",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "https://civichackathons.com/gatsby-material-starter",
+        "rssMetadata": {
+          "site_url": "https://civichackathons.com/gatsby-material-starter",
+          "feed_url": "https://civichackathons.com/gatsby-material-starter/rss.xml",
+          "title": "Civic Hackathons",
+          "description": "A Civic Hackathon Guide and Resources.",
+          "image_url": "https://civichackathons.com/gatsby-material-starter/logos/logo-512.png",
+          "author": "Jonathan Porter",
+          "copyright": "Copyright © 2018. Civic Hackathons"
+        }
+      },
+      "pathPrefix": "/gatsby-material-starter",
+      "polyfill": true,
+      "buildTime": "2018-09-26T01:49:49.159Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e007232eff4368440ab89f58ad4e606b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "225af379-59e1-5875-a9f6-78907fcd7303": {
+      "id": "225af379-59e1-5875-a9f6-78907fcd7303",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eba3b0d5eb4601c33ec5131bfafc3d39",
+        "type": "Directory",
+        "description": "Directory \"static/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-09-25T23:39:37.391Z",
+      "accessTime": "2018-09-26T00:00:38.926Z",
+      "changeTime": "2018-09-25T23:39:37.391Z",
+      "birthTime": "2018-09-25T23:39:37.391Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 2050,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688264,
+      "blocks": 8,
+      "atimeMs": 1537920038926.41,
+      "mtimeMs": 1537918777390.7595,
+      "ctimeMs": 1537918777390.7595,
+      "birthtimeMs": 1537918777390.7595,
+      "atime": "2018-09-26T00:00:38.926Z",
+      "mtime": "2018-09-25T23:39:37.391Z",
+      "ctime": "2018-09-25T23:39:37.391Z",
+      "birthtime": "2018-09-25T23:39:37.391Z"
+    },
+    "4d50e099-03f5-5d7d-bc42-ad516acfad31": {
+      "id": "4d50e099-03f5-5d7d-bc42-ad516acfad31",
+      "children": [
+        "5956fd07-c67f-5109-a922-dbf34c92459e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "baab69e8020dbd494d713d6df4611a73",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"static/assets/starter-logo-1024.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/starter-logo-1024.png",
+      "relativePath": "starter-logo-1024.png",
+      "extension": "png",
+      "size": 66226,
+      "prettySize": "66.2 kB",
+      "modifiedTime": "2018-09-25T23:39:37.391Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.391Z",
+      "birthTime": "2018-09-25T23:39:37.391Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "starter-logo-1024.png",
+      "ext": ".png",
+      "name": "starter-logo-1024",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688274,
+      "blocks": 136,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777390.7595,
+      "ctimeMs": 1537918777390.7595,
+      "birthtimeMs": 1537918777390.7595,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.391Z",
+      "ctime": "2018-09-25T23:39:37.391Z",
+      "birthtime": "2018-09-25T23:39:37.391Z"
+    },
+    "5956fd07-c67f-5109-a922-dbf34c92459e": {
+      "id": "5956fd07-c67f-5109-a922-dbf34c92459e",
+      "children": [],
+      "parent": "4d50e099-03f5-5d7d-bc42-ad516acfad31",
+      "internal": {
+        "contentDigest": "baab69e8020dbd494d713d6df4611a73",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5f3af03d-078c-517c-b47d-f84d27ae72f2": {
+      "id": "5f3af03d-078c-517c-b47d-f84d27ae72f2",
+      "children": [
+        "326c9c32-5f6c-59f3-ba93-26906985a92f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "efadfebe925588a27d94d61be1d376d3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/4.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/4.jpg",
+      "relativePath": "4.jpg",
+      "extension": "jpg",
+      "size": 1367902,
+      "prettySize": "1.37 MB",
+      "modifiedTime": "2018-09-25T23:39:37.327Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.327Z",
+      "birthTime": "2018-09-25T23:39:37.327Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "4.jpg",
+      "ext": ".jpg",
+      "name": "4",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688268,
+      "blocks": 2672,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777326.7593,
+      "ctimeMs": 1537918777326.7593,
+      "birthtimeMs": 1537918777326.7593,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.327Z",
+      "ctime": "2018-09-25T23:39:37.327Z",
+      "birthtime": "2018-09-25T23:39:37.327Z"
+    },
+    "326c9c32-5f6c-59f3-ba93-26906985a92f": {
+      "id": "326c9c32-5f6c-59f3-ba93-26906985a92f",
+      "children": [],
+      "parent": "5f3af03d-078c-517c-b47d-f84d27ae72f2",
+      "internal": {
+        "contentDigest": "efadfebe925588a27d94d61be1d376d3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "bbe24876-f643-5689-8b91-e763262f1b28": {
+      "id": "bbe24876-f643-5689-8b91-e763262f1b28",
+      "children": [
+        "b42063f5-ced1-59ee-af27-3bb3e5fff371"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ec37843aff5ef56afa497611620b3d63",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/5.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/5.jpg",
+      "relativePath": "5.jpg",
+      "extension": "jpg",
+      "size": 2047684,
+      "prettySize": "2.05 MB",
+      "modifiedTime": "2018-09-25T23:39:37.331Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.331Z",
+      "birthTime": "2018-09-25T23:39:37.331Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "5.jpg",
+      "ext": ".jpg",
+      "name": "5",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688269,
+      "blocks": 4000,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777330.7593,
+      "ctimeMs": 1537918777330.7593,
+      "birthtimeMs": 1537918777330.7593,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.331Z",
+      "ctime": "2018-09-25T23:39:37.331Z",
+      "birthtime": "2018-09-25T23:39:37.331Z"
+    },
+    "b42063f5-ced1-59ee-af27-3bb3e5fff371": {
+      "id": "b42063f5-ced1-59ee-af27-3bb3e5fff371",
+      "children": [],
+      "parent": "bbe24876-f643-5689-8b91-e763262f1b28",
+      "internal": {
+        "contentDigest": "ec37843aff5ef56afa497611620b3d63",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "65f4225d-aaac-570f-8c7e-4d351aeec6c5": {
+      "id": "65f4225d-aaac-570f-8c7e-4d351aeec6c5",
+      "children": [
+        "1860c258-015e-584a-9693-5dca10b1d218"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ecc766782029713523ae6a5bd8544045",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/6.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/6.jpg",
+      "relativePath": "6.jpg",
+      "extension": "jpg",
+      "size": 2492578,
+      "prettySize": "2.49 MB",
+      "modifiedTime": "2018-09-25T23:39:37.347Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.347Z",
+      "birthTime": "2018-09-25T23:39:37.347Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "6.jpg",
+      "ext": ".jpg",
+      "name": "6",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688270,
+      "blocks": 4872,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777346.7593,
+      "ctimeMs": 1537918777346.7593,
+      "birthtimeMs": 1537918777346.7593,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.347Z",
+      "ctime": "2018-09-25T23:39:37.347Z",
+      "birthtime": "2018-09-25T23:39:37.347Z"
+    },
+    "1860c258-015e-584a-9693-5dca10b1d218": {
+      "id": "1860c258-015e-584a-9693-5dca10b1d218",
+      "children": [],
+      "parent": "65f4225d-aaac-570f-8c7e-4d351aeec6c5",
+      "internal": {
+        "contentDigest": "ecc766782029713523ae6a5bd8544045",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "402e4669-2d32-589f-870b-4595a61eb96e": {
+      "id": "402e4669-2d32-589f-870b-4595a61eb96e",
+      "children": [
+        "2b8bdb9d-2632-5475-b27d-e764ef42c8c2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8446c9be5b67b2546b744ce3590ec89a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/2.jpg",
+      "relativePath": "2.jpg",
+      "extension": "jpg",
+      "size": 3678720,
+      "prettySize": "3.68 MB",
+      "modifiedTime": "2018-09-25T23:39:37.275Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.275Z",
+      "birthTime": "2018-09-25T23:39:37.275Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "2.jpg",
+      "ext": ".jpg",
+      "name": "2",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688266,
+      "blocks": 7192,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777274.7593,
+      "ctimeMs": 1537918777274.7593,
+      "birthtimeMs": 1537918777274.7593,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.275Z",
+      "ctime": "2018-09-25T23:39:37.275Z",
+      "birthtime": "2018-09-25T23:39:37.275Z"
+    },
+    "6f8d4757-33b3-5a94-9b03-84b99f3c16b4": {
+      "id": "6f8d4757-33b3-5a94-9b03-84b99f3c16b4",
+      "children": [
+        "e4cef480-1419-5e14-9778-54c43a17d927"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5f61a74df135852cd50707745eef7b97",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/johann-siemens-591-unsplash.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/johann-siemens-591-unsplash.jpg",
+      "relativePath": "johann-siemens-591-unsplash.jpg",
+      "extension": "jpg",
+      "size": 3668856,
+      "prettySize": "3.67 MB",
+      "modifiedTime": "2018-09-25T23:39:37.391Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.391Z",
+      "birthTime": "2018-09-25T23:39:37.391Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "johann-siemens-591-unsplash.jpg",
+      "ext": ".jpg",
+      "name": "johann-siemens-591-unsplash",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688273,
+      "blocks": 7168,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777390.7595,
+      "ctimeMs": 1537918777390.7595,
+      "birthtimeMs": 1537918777390.7595,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.391Z",
+      "ctime": "2018-09-25T23:39:37.391Z",
+      "birthtime": "2018-09-25T23:39:37.391Z"
+    },
+    "2b8bdb9d-2632-5475-b27d-e764ef42c8c2": {
+      "id": "2b8bdb9d-2632-5475-b27d-e764ef42c8c2",
+      "children": [],
+      "parent": "402e4669-2d32-589f-870b-4595a61eb96e",
+      "internal": {
+        "contentDigest": "8446c9be5b67b2546b744ce3590ec89a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e4cef480-1419-5e14-9778-54c43a17d927": {
+      "id": "e4cef480-1419-5e14-9778-54c43a17d927",
+      "children": [],
+      "parent": "6f8d4757-33b3-5a94-9b03-84b99f3c16b4",
+      "internal": {
+        "contentDigest": "5f61a74df135852cd50707745eef7b97",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "28dedd1c-0dc6-543f-9cfc-76926e89e4fd": {
+      "id": "28dedd1c-0dc6-543f-9cfc-76926e89e4fd",
+      "children": [
+        "6274082a-4545-5566-b913-f04e75027230"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5fc18f2823bc76b6fa9c2763130f539d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/1.jpg",
+      "relativePath": "1.jpg",
+      "extension": "jpg",
+      "size": 4082853,
+      "prettySize": "4.08 MB",
+      "modifiedTime": "2018-09-25T23:39:37.251Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.251Z",
+      "birthTime": "2018-09-25T23:39:37.251Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "1.jpg",
+      "ext": ".jpg",
+      "name": "1",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688265,
+      "blocks": 7976,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777250.759,
+      "ctimeMs": 1537918777250.759,
+      "birthtimeMs": 1537918777250.759,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.251Z",
+      "ctime": "2018-09-25T23:39:37.251Z",
+      "birthtime": "2018-09-25T23:39:37.251Z"
+    },
+    "6274082a-4545-5566-b913-f04e75027230": {
+      "id": "6274082a-4545-5566-b913-f04e75027230",
+      "children": [],
+      "parent": "28dedd1c-0dc6-543f-9cfc-76926e89e4fd",
+      "internal": {
+        "contentDigest": "5fc18f2823bc76b6fa9c2763130f539d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ba4233b0-aa9d-5e74-9fdd-1ff6a5bfd6dd": {
+      "id": "ba4233b0-aa9d-5e74-9fdd-1ff6a5bfd6dd",
+      "children": [
+        "02d318df-11e2-5cc6-b914-e6bec62c7ce5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6ae514ec7058b1598045c884ddf7768f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/7.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/7.jpg",
+      "relativePath": "7.jpg",
+      "extension": "jpg",
+      "size": 4488038,
+      "prettySize": "4.49 MB",
+      "modifiedTime": "2018-09-25T23:39:37.363Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.363Z",
+      "birthTime": "2018-09-25T23:39:37.363Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "7.jpg",
+      "ext": ".jpg",
+      "name": "7",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688271,
+      "blocks": 8768,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777362.7595,
+      "ctimeMs": 1537918777362.7595,
+      "birthtimeMs": 1537918777362.7595,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.363Z",
+      "ctime": "2018-09-25T23:39:37.363Z",
+      "birthtime": "2018-09-25T23:39:37.363Z"
+    },
+    "02d318df-11e2-5cc6-b914-e6bec62c7ce5": {
+      "id": "02d318df-11e2-5cc6-b914-e6bec62c7ce5",
+      "children": [],
+      "parent": "ba4233b0-aa9d-5e74-9fdd-1ff6a5bfd6dd",
+      "internal": {
+        "contentDigest": "6ae514ec7058b1598045c884ddf7768f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "93f5f44d-9f4f-5bb9-85a5-3c2666fae15b": {
+      "id": "93f5f44d-9f4f-5bb9-85a5-3c2666fae15b",
+      "children": [
+        "0945f7d4-5937-54b9-bb33-fd4bff7598e2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cb021f09fe55a3fec423af0894cd013d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/3.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/3.jpg",
+      "relativePath": "3.jpg",
+      "extension": "jpg",
+      "size": 7643455,
+      "prettySize": "7.64 MB",
+      "modifiedTime": "2018-09-25T23:39:37.323Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.323Z",
+      "birthTime": "2018-09-25T23:39:37.323Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "3.jpg",
+      "ext": ".jpg",
+      "name": "3",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688267,
+      "blocks": 14936,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777322.7593,
+      "ctimeMs": 1537918777322.7593,
+      "birthtimeMs": 1537918777322.7593,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.323Z",
+      "ctime": "2018-09-25T23:39:37.323Z",
+      "birthtime": "2018-09-25T23:39:37.323Z"
+    },
+    "0945f7d4-5937-54b9-bb33-fd4bff7598e2": {
+      "id": "0945f7d4-5937-54b9-bb33-fd4bff7598e2",
+      "children": [],
+      "parent": "93f5f44d-9f4f-5bb9-85a5-3c2666fae15b",
+      "internal": {
+        "contentDigest": "cb021f09fe55a3fec423af0894cd013d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f27eb7de-94e2-5a31-8d05-6a51a6485ffe": {
+      "id": "f27eb7de-94e2-5a31-8d05-6a51a6485ffe",
+      "children": [
+        "7b1c215e-72b4-5a76-ae65-53eabf4cced4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b3cdacff00869888d25c55e416ce9b47",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/assets/8.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/jon/Source/civichackathons/static/assets/8.jpg",
+      "relativePath": "8.jpg",
+      "extension": "jpg",
+      "size": 9838755,
+      "prettySize": "9.84 MB",
+      "modifiedTime": "2018-09-25T23:39:37.379Z",
+      "accessTime": "2018-09-26T00:15:52.363Z",
+      "changeTime": "2018-09-25T23:39:37.379Z",
+      "birthTime": "2018-09-25T23:39:37.379Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/static/assets",
+      "base": "8.jpg",
+      "ext": ".jpg",
+      "name": "8",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6688272,
+      "blocks": 19224,
+      "atimeMs": 1537920952362.8875,
+      "mtimeMs": 1537918777378.7595,
+      "ctimeMs": 1537918777378.7595,
+      "birthtimeMs": 1537918777378.7595,
+      "atime": "2018-09-26T00:15:52.363Z",
+      "mtime": "2018-09-25T23:39:37.379Z",
+      "ctime": "2018-09-25T23:39:37.379Z",
+      "birthtime": "2018-09-25T23:39:37.379Z"
+    },
+    "7b1c215e-72b4-5a76-ae65-53eabf4cced4": {
+      "id": "7b1c215e-72b4-5a76-ae65-53eabf4cced4",
+      "children": [],
+      "parent": "f27eb7de-94e2-5a31-8d05-6a51a6485ffe",
+      "internal": {
+        "contentDigest": "b3cdacff00869888d25c55e416ce9b47",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "023679ac-c1c6-5d07-a2c6-a93b57fcfe47": {
+      "id": "023679ac-c1c6-5d07-a2c6-a93b57fcfe47",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e072102dbe08347dda15037393b1a45a",
+        "type": "Directory",
+        "description": "Directory \"content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/jon/Source/civichackathons/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-09-26T01:44:51.571Z",
+      "accessTime": "2018-09-26T01:47:00.884Z",
+      "changeTime": "2018-09-26T01:44:51.571Z",
+      "birthTime": "2018-09-26T01:44:51.571Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 2050,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5245850,
+      "blocks": 8,
+      "atimeMs": 1537926420883.8474,
+      "mtimeMs": 1537926291571.1523,
+      "ctimeMs": 1537926291571.1523,
+      "birthtimeMs": 1537926291571.1523,
+      "atime": "2018-09-26T01:47:00.884Z",
+      "mtime": "2018-09-26T01:44:51.571Z",
+      "ctime": "2018-09-26T01:44:51.571Z",
+      "birthtime": "2018-09-26T01:44:51.571Z"
+    },
+    "80357469-3c4d-55c2-ab2d-4c7b4231f1d8": {
+      "id": "80357469-3c4d-55c2-ab2d-4c7b4231f1d8",
+      "children": [
+        "1452dbe1-4acb-5e17-b995-ec406a0ef10e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c447830eafc0e77f4e728e580fd120d3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/Big_Sample_Post.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/jon/Source/civichackathons/content/Big_Sample_Post.md",
+      "relativePath": "Big_Sample_Post.md",
+      "extension": "md",
+      "size": 10948,
+      "prettySize": "10.9 kB",
+      "modifiedTime": "2018-09-25T23:39:37.215Z",
+      "accessTime": "2018-09-26T00:15:52.519Z",
+      "changeTime": "2018-09-25T23:39:37.215Z",
+      "birthTime": "2018-09-25T23:39:37.215Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/content",
+      "base": "Big_Sample_Post.md",
+      "ext": ".md",
+      "name": "Big_Sample_Post",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5245865,
+      "blocks": 24,
+      "atimeMs": 1537920952518.8882,
+      "mtimeMs": 1537918777214.759,
+      "ctimeMs": 1537918777214.759,
+      "birthtimeMs": 1537918777214.759,
+      "atime": "2018-09-26T00:15:52.519Z",
+      "mtime": "2018-09-25T23:39:37.215Z",
+      "ctime": "2018-09-25T23:39:37.215Z",
+      "birthtime": "2018-09-25T23:39:37.215Z"
+    },
+    "c35cacbe-aa4d-501a-9697-c215700f8b35": {
+      "id": "c35cacbe-aa4d-501a-9697-c215700f8b35",
+      "children": [
+        "8e4d48db-748f-556e-a554-757dc339af45"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e3bc4732e409249c72588c66c796c9b5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/Introducing-Gatsby-Material-Starter.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/jon/Source/civichackathons/content/Introducing-Gatsby-Material-Starter.md",
+      "relativePath": "Introducing-Gatsby-Material-Starter.md",
+      "extension": "md",
+      "size": 3347,
+      "prettySize": "3.35 kB",
+      "modifiedTime": "2018-09-25T23:39:37.215Z",
+      "accessTime": "2018-09-26T00:15:52.519Z",
+      "changeTime": "2018-09-25T23:39:37.215Z",
+      "birthTime": "2018-09-25T23:39:37.215Z",
+      "root": "/",
+      "dir": "/home/jon/Source/civichackathons/content",
+      "base": "Introducing-Gatsby-Material-Starter.md",
+      "ext": ".md",
+      "name": "Introducing-Gatsby-Material-Starter",
+      "relativeDirectory": "",
+      "dev": 2050,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5245866,
+      "blocks": 8,
+      "atimeMs": 1537920952518.8882,
+      "mtimeMs": 1537918777214.759,
+      "ctimeMs": 1537918777214.759,
+      "birthtimeMs": 1537918777214.759,
+      "atime": "2018-09-26T00:15:52.519Z",
+      "mtime": "2018-09-25T23:39:37.215Z",
+      "ctime": "2018-09-25T23:39:37.215Z",
+      "birthtime": "2018-09-25T23:39:37.215Z"
+    },
+    "1452dbe1-4acb-5e17-b995-ec406a0ef10e": {
+      "id": "1452dbe1-4acb-5e17-b995-ec406a0ef10e",
+      "children": [],
+      "parent": "80357469-3c4d-55c2-ab2d-4c7b4231f1d8",
+      "internal": {
+        "content": "\n# NOTE: This \"post\" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.\n\n\nThis is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).\n\nThis cheatsheet is specifically *Markdown Here's* version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a *Markdown Here* email, but it should be pretty close.\n\nYou can play around with Markdown on our [live demo page](http://www.markdown-here.com/livedemo.html).\n\n(If you're not a Markdown Here user, check out the [Markdown Cheatsheet](./Markdown-Cheatsheet) that is not specific to MDH. But, really, you should also use Markdown Here, because it's awesome. http://markdown-here.com)\n\n##### Table of Contents\n\n[Headers](#headers)\n[Emphasis](#emphasis)\n[Lists](#lists)\n[Links](#links)\n[Images](#images)\n[Code and Syntax Highlighting](#code)\n[Tables](#tables)\n[Blockquotes](#blockquotes)\n[Inline HTML](#html)\n[Horizontal Rule](#hr)\n[Line Breaks](#lines)\n[YouTube Videos](#videos)\n\n<a name=\"headers\"/>\n\n## Headers\n\n```no-highlight\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n\nAlternatively, for H1 and H2, an underline-ish style:\n\nAlt-H1\n======\n\nAlt-H2\n------\n```\n\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n\nAlternatively, for H1 and H2, an underline-ish style:\n\nAlt-H1\n======\n\nAlt-H2\n------\n\n<a name=\"emphasis\"/>\n\n## Emphasis\n\n```no-highlight\nEmphasis, aka italics, with *asterisks* or _underscores_.\n\nStrong emphasis, aka bold, with **asterisks** or __underscores__.\n\nCombined emphasis with **asterisks and _underscores_**.\n\nStrikethrough uses two tildes. ~~Scratch this.~~\n```\n\nEmphasis, aka italics, with *asterisks* or _underscores_.\n\nStrong emphasis, aka bold, with **asterisks** or __underscores__.\n\nCombined emphasis with **asterisks and _underscores_**.\n\nStrikethrough uses two tildes. ~~Scratch this.~~\n\n\n<a name=\"lists\"/>\n\n## Lists\n\n```no-highlight\n1. First ordered list item\n2. Another item\n  * Unordered sub-list.\n1. Actual numbers don't matter, just that it's a number\n  1. Ordered sub-list\n4. And another item.\n\n   Some text that should be aligned with the above item.\n\n* Unordered list can use asterisks\n- Or minuses\n+ Or pluses\n```\n\n1. First ordered list item\n2. Another item\n\n   * Unordered sub-list.\n\n1. Actual numbers don't matter, just that it's a number\n\n   1. Ordered sub-list\n\n4. And another item.\n\n   Some text that should be aligned with the above item.\n\n* Unordered list can use asterisks\n- Or minuses\n+ Or pluses\n\n<a name=\"links\"/>\n\n## Links\n\nThere are two ways to create links.\n\n```no-highlight\n[I'm an inline-style link](https://www.google.com)\n\n[I'm a reference-style link][Arbitrary case-insensitive reference text]\n\n[You can use numbers for reference-style link definitions][1]\n\nOr leave it empty and use the [link text itself]\n\nURLs and URLs in angle brackets will automatically get turned into links.\nhttp://www.example.com or <http://www.example.com> and sometimes\nexample.com (but not on Github, for example).\n\nSome text to show that the reference links can follow later.\n\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\n[1]: http://slashdot.org\n[link text itself]: http://www.reddit.com\n```\n\n[I'm an inline-style link](https://www.google.com)\n\n[I'm a reference-style link][Arbitrary case-insensitive reference text]\n\n[You can use numbers for reference-style link definitions][1]\n\nOr leave it empty and use the [link text itself]\n\nURLs and URLs in angle brackets will automatically get turned into links.\nhttp://www.example.com or <http://www.example.com> and sometimes\nexample.com (but not on Github, for example).\n\nSome text to show that the reference links can follow later.\n\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\n[1]: http://slashdot.org\n[link text itself]: http://www.reddit.com\n\n<a name=\"images\"/>\n\n## Images\n\n```no-highlight\nHere's our logo (hover to see the title text):\n\nInline-style:\n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style:\n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n```\n\nHere's our logo (hover to see the title text):\n\nInline-style:\n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style:\n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n\n<a name=\"code\"/>\n\n## Code and Syntax Highlighting\n\nCode blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).\n\n```no-highlight\nInline `code` has `back-ticks around` it.\n```\n\nInline `code` has `back-ticks around` it.\n\nBlocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.\n\n<pre lang=\"no-highlight\"><code>```javascript\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\n```\n\n```python\ns = \"Python syntax highlighting\"\nprint s\n```\n\n```\nNo language indicated, so no syntax highlighting.\nBut let's throw in a &lt;b&gt;tag&lt;/b&gt;.\n```\n</code></pre>\n\n\n\n```javascript\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\n```\n\n```python\ns = \"Python syntax highlighting\"\nprint s\n```\n\n```\nNo language indicated, so no syntax highlighting in Markdown Here (varies on Github).\nBut let's throw in a <b>tag</b>.\n```\n\nAgain, to see what languages are available for highlighting, and how to write those language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).\n\n<a name=\"tables\"/>\n\n## Tables\n\nTables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.\n\n```no-highlight\nColons can be used to align columns.\n\n| Tables        | Are           | Cool  |\n| ------------- | :-----------: | ----: |\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      | $12   |\n| zebra stripes | are neat      | $1    |\n\nThe outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.\n\n| | Markdown | Less           | Pretty     |     |\n| | ------------- | --------------- | ---------- |------- |\n| | *Still*   | `renders` | **nicely** | |\n| | 1               | 2                 | 3          |          |\n```\n\nColons can be used to align columns.\n\n| Tables        | Are           | Cool  |\n| ------------- | :-----------: | ----: |\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      | $12   |\n| zebra stripes | are neat      | $1    |\n\nThe outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.\n\n| Markdown | Less      | Pretty     |\n| -------- | --------- | ---------- |\n| *Still*  | `renders` | **nicely** |\n| 1        | 2         | 3          |\n\n<a name=\"blockquotes\"/>\n\n## Blockquotes\n\n```no-highlight\n> Blockquotes are very handy in email to emulate reply text.\n> This line is part of the same quote.\n\nQuote break.\n\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.\n```\n\n> Blockquotes are very handy in email to emulate reply text.\n> This line is part of the same quote.\n\nQuote break.\n\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.\n\n<a name=\"html\"/>\n\n## Inline HTML\n\nYou can also use raw HTML in your Markdown, and it'll mostly work pretty well.\n\n```no-highlight\n<dl>\n  <dt>Definition list</dt>\n  <dd>Is something people use sometimes.</dd>\n\n  <dt>Markdown in HTML</dt>\n  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>\n</dl>\n```\n\n<dl>\n  <dt>Definition list</dt>\n  <dd>Is something people use sometimes.</dd>\n\n  <dt>Markdown in HTML</dt>\n  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>\n</dl>\n\n<a name=\"hr\"/>\n\n## Horizontal Rule\n\n```\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores\n```\n\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores\n\n<a name=\"lines\"/>\n\n## Line Breaks\n\nMy basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. \"Markdown Toggle\" is your friend.\n\nHere are some things to try out:\n\n```\nHere's a line for us to start with.\n\nThis line is separated from the one above by two newlines, so it will be a *separate paragraph*.\n\nThis line is also a separate paragraph, but...\nThis line is only separated by a single newline, so it's a separate line in the *same paragraph*.\n```\n\nHere's a line for us to start with.\n\nThis line is separated from the one above by two newlines, so it will be a *separate paragraph*.\n\nThis line is also begins a separate paragraph, but...\nThis line is only separated by a single newline, so it's a separate line in the *same paragraph*.\n\n(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)\n\n<a name=\"videos\"/>\n\n## YouTube Videos\n\nThey can't be added directly but you can add an image with a link to the video like this:\n\n```no-highlight\n<a href=\"http://www.youtube.com/watch?feature=player_embedded&v=8AkLfYOgIrE\n\" target=\"_blank\"><img src=\"http://img.youtube.com/vi/8AkLfYOgIrE/0.jpg\"\nalt=\"IMAGE ALT TEXT HERE\" width=\"240\" height=\"180\" border=\"10\" /></a>\n```\n\nOr, in pure Markdown, but losing the image sizing and border:\n\n```no-highlight\n[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)\n```\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e26114cfb93405c17b55b8c7b71fe782",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "date": "default-site-plugin",
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Big Test",
+        "cover": "5.jpg",
+        "category": "moar",
+        "date": "2018-03-01",
+        "slug": "Big-Sample_Test",
+        "tags": [
+          "test",
+          "huge"
+        ],
+        "_PARENT": "80357469-3c4d-55c2-ab2d-4c7b4231f1d8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# NOTE: This \"post\" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.\n\n\nThis is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).\n\nThis cheatsheet is specifically *Markdown Here's* version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a *Markdown Here* email, but it should be pretty close.\n\nYou can play around with Markdown on our [live demo page](http://www.markdown-here.com/livedemo.html).\n\n(If you're not a Markdown Here user, check out the [Markdown Cheatsheet](./Markdown-Cheatsheet) that is not specific to MDH. But, really, you should also use Markdown Here, because it's awesome. http://markdown-here.com)\n\n##### Table of Contents\n\n[Headers](#headers)\n[Emphasis](#emphasis)\n[Lists](#lists)\n[Links](#links)\n[Images](#images)\n[Code and Syntax Highlighting](#code)\n[Tables](#tables)\n[Blockquotes](#blockquotes)\n[Inline HTML](#html)\n[Horizontal Rule](#hr)\n[Line Breaks](#lines)\n[YouTube Videos](#videos)\n\n<a name=\"headers\"/>\n\n## Headers\n\n```no-highlight\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n\nAlternatively, for H1 and H2, an underline-ish style:\n\nAlt-H1\n======\n\nAlt-H2\n------\n```\n\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n\nAlternatively, for H1 and H2, an underline-ish style:\n\nAlt-H1\n======\n\nAlt-H2\n------\n\n<a name=\"emphasis\"/>\n\n## Emphasis\n\n```no-highlight\nEmphasis, aka italics, with *asterisks* or _underscores_.\n\nStrong emphasis, aka bold, with **asterisks** or __underscores__.\n\nCombined emphasis with **asterisks and _underscores_**.\n\nStrikethrough uses two tildes. ~~Scratch this.~~\n```\n\nEmphasis, aka italics, with *asterisks* or _underscores_.\n\nStrong emphasis, aka bold, with **asterisks** or __underscores__.\n\nCombined emphasis with **asterisks and _underscores_**.\n\nStrikethrough uses two tildes. ~~Scratch this.~~\n\n\n<a name=\"lists\"/>\n\n## Lists\n\n```no-highlight\n1. First ordered list item\n2. Another item\n  * Unordered sub-list.\n1. Actual numbers don't matter, just that it's a number\n  1. Ordered sub-list\n4. And another item.\n\n   Some text that should be aligned with the above item.\n\n* Unordered list can use asterisks\n- Or minuses\n+ Or pluses\n```\n\n1. First ordered list item\n2. Another item\n\n   * Unordered sub-list.\n\n1. Actual numbers don't matter, just that it's a number\n\n   1. Ordered sub-list\n\n4. And another item.\n\n   Some text that should be aligned with the above item.\n\n* Unordered list can use asterisks\n- Or minuses\n+ Or pluses\n\n<a name=\"links\"/>\n\n## Links\n\nThere are two ways to create links.\n\n```no-highlight\n[I'm an inline-style link](https://www.google.com)\n\n[I'm a reference-style link][Arbitrary case-insensitive reference text]\n\n[You can use numbers for reference-style link definitions][1]\n\nOr leave it empty and use the [link text itself]\n\nURLs and URLs in angle brackets will automatically get turned into links.\nhttp://www.example.com or <http://www.example.com> and sometimes\nexample.com (but not on Github, for example).\n\nSome text to show that the reference links can follow later.\n\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\n[1]: http://slashdot.org\n[link text itself]: http://www.reddit.com\n```\n\n[I'm an inline-style link](https://www.google.com)\n\n[I'm a reference-style link][Arbitrary case-insensitive reference text]\n\n[You can use numbers for reference-style link definitions][1]\n\nOr leave it empty and use the [link text itself]\n\nURLs and URLs in angle brackets will automatically get turned into links.\nhttp://www.example.com or <http://www.example.com> and sometimes\nexample.com (but not on Github, for example).\n\nSome text to show that the reference links can follow later.\n\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\n[1]: http://slashdot.org\n[link text itself]: http://www.reddit.com\n\n<a name=\"images\"/>\n\n## Images\n\n```no-highlight\nHere's our logo (hover to see the title text):\n\nInline-style:\n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style:\n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n```\n\nHere's our logo (hover to see the title text):\n\nInline-style:\n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style:\n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n\n<a name=\"code\"/>\n\n## Code and Syntax Highlighting\n\nCode blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).\n\n```no-highlight\nInline `code` has `back-ticks around` it.\n```\n\nInline `code` has `back-ticks around` it.\n\nBlocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.\n\n<pre lang=\"no-highlight\"><code>```javascript\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\n```\n\n```python\ns = \"Python syntax highlighting\"\nprint s\n```\n\n```\nNo language indicated, so no syntax highlighting.\nBut let's throw in a &lt;b&gt;tag&lt;/b&gt;.\n```\n</code></pre>\n\n\n\n```javascript\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\n```\n\n```python\ns = \"Python syntax highlighting\"\nprint s\n```\n\n```\nNo language indicated, so no syntax highlighting in Markdown Here (varies on Github).\nBut let's throw in a <b>tag</b>.\n```\n\nAgain, to see what languages are available for highlighting, and how to write those language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).\n\n<a name=\"tables\"/>\n\n## Tables\n\nTables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.\n\n```no-highlight\nColons can be used to align columns.\n\n| Tables        | Are           | Cool  |\n| ------------- | :-----------: | ----: |\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      | $12   |\n| zebra stripes | are neat      | $1    |\n\nThe outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.\n\n| | Markdown | Less           | Pretty     |     |\n| | ------------- | --------------- | ---------- |------- |\n| | *Still*   | `renders` | **nicely** | |\n| | 1               | 2                 | 3          |          |\n```\n\nColons can be used to align columns.\n\n| Tables        | Are           | Cool  |\n| ------------- | :-----------: | ----: |\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      | $12   |\n| zebra stripes | are neat      | $1    |\n\nThe outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.\n\n| Markdown | Less      | Pretty     |\n| -------- | --------- | ---------- |\n| *Still*  | `renders` | **nicely** |\n| 1        | 2         | 3          |\n\n<a name=\"blockquotes\"/>\n\n## Blockquotes\n\n```no-highlight\n> Blockquotes are very handy in email to emulate reply text.\n> This line is part of the same quote.\n\nQuote break.\n\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.\n```\n\n> Blockquotes are very handy in email to emulate reply text.\n> This line is part of the same quote.\n\nQuote break.\n\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.\n\n<a name=\"html\"/>\n\n## Inline HTML\n\nYou can also use raw HTML in your Markdown, and it'll mostly work pretty well.\n\n```no-highlight\n<dl>\n  <dt>Definition list</dt>\n  <dd>Is something people use sometimes.</dd>\n\n  <dt>Markdown in HTML</dt>\n  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>\n</dl>\n```\n\n<dl>\n  <dt>Definition list</dt>\n  <dd>Is something people use sometimes.</dd>\n\n  <dt>Markdown in HTML</dt>\n  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>\n</dl>\n\n<a name=\"hr\"/>\n\n## Horizontal Rule\n\n```\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores\n```\n\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores\n\n<a name=\"lines\"/>\n\n## Line Breaks\n\nMy basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. \"Markdown Toggle\" is your friend.\n\nHere are some things to try out:\n\n```\nHere's a line for us to start with.\n\nThis line is separated from the one above by two newlines, so it will be a *separate paragraph*.\n\nThis line is also a separate paragraph, but...\nThis line is only separated by a single newline, so it's a separate line in the *same paragraph*.\n```\n\nHere's a line for us to start with.\n\nThis line is separated from the one above by two newlines, so it will be a *separate paragraph*.\n\nThis line is also begins a separate paragraph, but...\nThis line is only separated by a single newline, so it's a separate line in the *same paragraph*.\n\n(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)\n\n<a name=\"videos\"/>\n\n## YouTube Videos\n\nThey can't be added directly but you can add an image with a link to the video like this:\n\n```no-highlight\n<a href=\"http://www.youtube.com/watch?feature=player_embedded&v=8AkLfYOgIrE\n\" target=\"_blank\"><img src=\"http://img.youtube.com/vi/8AkLfYOgIrE/0.jpg\"\nalt=\"IMAGE ALT TEXT HERE\" width=\"240\" height=\"180\" border=\"10\" /></a>\n```\n\nOr, in pure Markdown, but losing the image sizing and border:\n\n```no-highlight\n[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)\n```\n",
+      "fileAbsolutePath": "/home/jon/Source/civichackathons/content/Big_Sample_Post.md",
+      "fields": {
+        "date": "2018-03-01T05:00:00.000Z",
+        "slug": "/big-sample-test",
+        "nextTitle": "Introducing Gatsby Material Starter",
+        "nextSlug": "/introducing-gatsby-material-starter",
+        "prevTitle": "Big Test",
+        "prevSlug": "/big-sample-test"
+      }
+    },
+    "8e4d48db-748f-556e-a554-757dc339af45": {
+      "id": "8e4d48db-748f-556e-a554-757dc339af45",
+      "children": [],
+      "parent": "c35cacbe-aa4d-501a-9697-c215700f8b35",
+      "internal": {
+        "content": "\nAround a year ago, this project was one of the first ones ported to the `v1` version of GatsbyJS.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Great news! Gatsby Material starter is now based on stable V1 of <a href=\"https://twitter.com/gatsbyjs\">@gatsbyjs</a>!<a href=\"https://t.co/P2JqNbcRmk\">https://t.co/P2JqNbcRmk</a></p>&mdash; Ruben Harutyunyan (@Vagr9K) <a href=\"https://twitter.com/Vagr9K/status/883073085963993089\">July 6, 2017</a></blockquote>\n\nAnd now, it's super exciting for me to announce the `v2` version of `Gatsby Material Starter` with the support of the newest Gatsby v2 features!\n\nYou can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.\n\nNew features are:\n\n- NetlifyCMS support\n- Complete optimization of all image assets via `gatsby-image` for faster loading times\n- New date formatting options\n- Netlify build configuration to make deploys easier\n- Less restrictive URL options\n- Bug fixes related to dates and sorting\n\nFull feature list:\n\n- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files\n- [React-MD](https://github.com/mlaursen/react-md) for Material design\n  - Integrated FontAwesome support\n  - Integrated Material Icons support\n- SASS/SCSS styling\n- [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel\n- Separate components for everything\n- High configurability:\n  - User information\n  - User social profiles\n  - Copyright information\n  - More!\n- Author segment\n  - Name\n  - Location\n  - Description\n  - Links\n  - Follow Me button\n- Posts in Markdown\n  - Code syntax highlighting\n  - Embedded YouTube videos\n  - Embedded Tweets\n- Tags\n  - Seprate page for posts under each tag\n- Categories\n  - Separate page for posts under each category\n- Suggested posts segment\n- Disqus support\n  - Notifications about new disqus comments\n- Responsive design\n  - On mobile, Disqus is loaded only after expanding comments for better performance\n- Social features\n  - Twitter tweet button\n  - Facebook share/share count\n  - Reddit share/share count\n  - Google+ share button\n  - LinkedIn share button\n  - Telegram share button\n- SEO\n  - Sitemap generation\n  - robots.txt\n  - General description tags\n  - Schema.org JSONLD (Google Rich Snippets)\n  - OpenGraph Tags (Facebook/Google+/Pinterest)\n  - Twitter Tags (Twitter Cards)\n- RSS feeds\n- Loading progress for slow networks\n- Offline support\n- Web App Manifest support\n- Automatic image transformation and size optimization\n- Netlify deploy configuration\n- Google Analytics support\n- Development tools\n  - ESLint for linting\n  - Prettier for code style\n  - Remark-Lint for linting Markdown\n  - write-good for linting English prose\n  - gh-pages for deploying to GitHub pages\n  - CodeClimate configuration file and badge\n\nNOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.\n\nMore information is available on [GitHub repository page](https://github.com/Vagr9K/gatsby-material-starter).\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6c05b93709b99cf926d2e7f5039d3ec8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "date": "default-site-plugin",
+          "slug": "default-site-plugin",
+          "nextTitle": "default-site-plugin",
+          "nextSlug": "default-site-plugin",
+          "prevTitle": "default-site-plugin",
+          "prevSlug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Introducing Gatsby Material Starter",
+        "cover": "starter-logo-1024.png",
+        "category": "gatsby",
+        "tags": [
+          "gatsby",
+          "material",
+          "starter"
+        ],
+        "date": "2018-07-02",
+        "_PARENT": "c35cacbe-aa4d-501a-9697-c215700f8b35"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAround a year ago, this project was one of the first ones ported to the `v1` version of GatsbyJS.\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Great news! Gatsby Material starter is now based on stable V1 of <a href=\"https://twitter.com/gatsbyjs\">@gatsbyjs</a>!<a href=\"https://t.co/P2JqNbcRmk\">https://t.co/P2JqNbcRmk</a></p>&mdash; Ruben Harutyunyan (@Vagr9K) <a href=\"https://twitter.com/Vagr9K/status/883073085963993089\">July 6, 2017</a></blockquote>\n\nAnd now, it's super exciting for me to announce the `v2` version of `Gatsby Material Starter` with the support of the newest Gatsby v2 features!\n\nYou can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.\n\nNew features are:\n\n- NetlifyCMS support\n- Complete optimization of all image assets via `gatsby-image` for faster loading times\n- New date formatting options\n- Netlify build configuration to make deploys easier\n- Less restrictive URL options\n- Bug fixes related to dates and sorting\n\nFull feature list:\n\n- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files\n- [React-MD](https://github.com/mlaursen/react-md) for Material design\n  - Integrated FontAwesome support\n  - Integrated Material Icons support\n- SASS/SCSS styling\n- [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel\n- Separate components for everything\n- High configurability:\n  - User information\n  - User social profiles\n  - Copyright information\n  - More!\n- Author segment\n  - Name\n  - Location\n  - Description\n  - Links\n  - Follow Me button\n- Posts in Markdown\n  - Code syntax highlighting\n  - Embedded YouTube videos\n  - Embedded Tweets\n- Tags\n  - Seprate page for posts under each tag\n- Categories\n  - Separate page for posts under each category\n- Suggested posts segment\n- Disqus support\n  - Notifications about new disqus comments\n- Responsive design\n  - On mobile, Disqus is loaded only after expanding comments for better performance\n- Social features\n  - Twitter tweet button\n  - Facebook share/share count\n  - Reddit share/share count\n  - Google+ share button\n  - LinkedIn share button\n  - Telegram share button\n- SEO\n  - Sitemap generation\n  - robots.txt\n  - General description tags\n  - Schema.org JSONLD (Google Rich Snippets)\n  - OpenGraph Tags (Facebook/Google+/Pinterest)\n  - Twitter Tags (Twitter Cards)\n- RSS feeds\n- Loading progress for slow networks\n- Offline support\n- Web App Manifest support\n- Automatic image transformation and size optimization\n- Netlify deploy configuration\n- Google Analytics support\n- Development tools\n  - ESLint for linting\n  - Prettier for code style\n  - Remark-Lint for linting Markdown\n  - write-good for linting English prose\n  - gh-pages for deploying to GitHub pages\n  - CodeClimate configuration file and badge\n\nNOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.\n\nMore information is available on [GitHub repository page](https://github.com/Vagr9K/gatsby-material-starter).\n",
+      "fileAbsolutePath": "/home/jon/Source/civichackathons/content/Introducing-Gatsby-Material-Starter.md",
+      "fields": {
+        "date": "2018-07-02T04:00:00.000Z",
+        "slug": "/introducing-gatsby-material-starter",
+        "nextTitle": "Big Test",
+        "nextSlug": "/big-sample-test",
+        "prevTitle": "Big Test",
+        "prevSlug": "/big-sample-test"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c001fb0c325cc2305cd95eeacea8dbd1",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /big-sample-test": {
+      "jsonName": "big-sample-test-be1",
+      "internalComponentName": "ComponentBigSampleTest",
+      "path": "/big-sample-test",
+      "component": "/home/jon/Source/civichackathons/src/templates/post.jsx",
+      "componentChunkName": "component---src-templates-post-jsx",
+      "context": {
+        "slug": "/big-sample-test"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/post.jsx",
+      "id": "SitePage /big-sample-test",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dc59480a6856bab2db2432bf09fb5e15",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /introducing-gatsby-material-starter": {
+      "jsonName": "introducing-gatsby-material-starter-c41",
+      "internalComponentName": "ComponentIntroducingGatsbyMaterialStarter",
+      "path": "/introducing-gatsby-material-starter",
+      "component": "/home/jon/Source/civichackathons/src/templates/post.jsx",
+      "componentChunkName": "component---src-templates-post-jsx",
+      "context": {
+        "slug": "/introducing-gatsby-material-starter"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/post.jsx",
+      "id": "SitePage /introducing-gatsby-material-starter",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "380785c78a1b6feb00fdcf3dc264b926",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/test/": {
+      "jsonName": "tags-test-7c5",
+      "internalComponentName": "ComponentTagsTest",
+      "path": "/tags/test/",
+      "component": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "tag": "test"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "id": "SitePage /tags/test/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6f5fac2aed8d510b5c0620fbb9b3aaf",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/huge/": {
+      "jsonName": "tags-huge-691",
+      "internalComponentName": "ComponentTagsHuge",
+      "path": "/tags/huge/",
+      "component": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "tag": "huge"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "id": "SitePage /tags/huge/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9c67069d3884f0d0f3629ccdd023cd7d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/gatsby/": {
+      "jsonName": "tags-gatsby-b93",
+      "internalComponentName": "ComponentTagsGatsby",
+      "path": "/tags/gatsby/",
+      "component": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "tag": "gatsby"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "id": "SitePage /tags/gatsby/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e3b60dfafbff2f25f03e14e8bcacce80",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/material/": {
+      "jsonName": "tags-material-5bc",
+      "internalComponentName": "ComponentTagsMaterial",
+      "path": "/tags/material/",
+      "component": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "tag": "material"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "id": "SitePage /tags/material/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "43fbc1a7d20f62f349de92684c676a17",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/starter/": {
+      "jsonName": "tags-starter-aed",
+      "internalComponentName": "ComponentTagsStarter",
+      "path": "/tags/starter/",
+      "component": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "tag": "starter"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx",
+      "id": "SitePage /tags/starter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7e2385438adb31e5388768926a2681a",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /categories/moar/": {
+      "jsonName": "categories-moar-1a3",
+      "internalComponentName": "ComponentCategoriesMoar",
+      "path": "/categories/moar/",
+      "component": "/home/jon/Source/civichackathons/src/templates/category.jsx",
+      "componentChunkName": "component---src-templates-category-jsx",
+      "context": {
+        "category": "moar"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/category.jsx",
+      "id": "SitePage /categories/moar/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "13786b2ee141be98342ced5b397311fa",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /categories/gatsby/": {
+      "jsonName": "categories-gatsby-980",
+      "internalComponentName": "ComponentCategoriesGatsby",
+      "path": "/categories/gatsby/",
+      "component": "/home/jon/Source/civichackathons/src/templates/category.jsx",
+      "componentChunkName": "component---src-templates-category-jsx",
+      "context": {
+        "category": "gatsby"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/category.jsx",
+      "id": "SitePage /categories/gatsby/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7a9fba07231b384b742d30cbddd59180",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/home/jon/Source/civichackathons/src/pages/about.jsx",
+      "componentChunkName": "component---src-pages-about-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/jon/Source/civichackathons/src/pages/about.jsx",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "49f9cde6161b0846c0d8162263ca6094",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/jon/Source/civichackathons/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/jon/Source/civichackathons/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e96de45035c69514028b2c4c1687455c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b37def7629fdb3ea7c0d6b01dae4f0c1"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "5956fd07-c67f-5109-a922-dbf34c92459e": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "4d50e099-03f5-5d7d-bc42-ad516acfad31": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "326c9c32-5f6c-59f3-ba93-26906985a92f": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "5f3af03d-078c-517c-b47d-f84d27ae72f2": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "b42063f5-ced1-59ee-af27-3bb3e5fff371": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "bbe24876-f643-5689-8b91-e763262f1b28": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "1860c258-015e-584a-9693-5dca10b1d218": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "65f4225d-aaac-570f-8c7e-4d351aeec6c5": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "2b8bdb9d-2632-5475-b27d-e764ef42c8c2": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "402e4669-2d32-589f-870b-4595a61eb96e": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "e4cef480-1419-5e14-9778-54c43a17d927": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "6f8d4757-33b3-5a94-9b03-84b99f3c16b4": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "6274082a-4545-5566-b913-f04e75027230": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "28dedd1c-0dc6-543f-9cfc-76926e89e4fd": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "02d318df-11e2-5cc6-b914-e6bec62c7ce5": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "ba4233b0-aa9d-5e74-9fdd-1ff6a5bfd6dd": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "0945f7d4-5937-54b9-bb33-fd4bff7598e2": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "93f5f44d-9f4f-5bb9-85a5-3c2666fae15b": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "7b1c215e-72b4-5a76-ae65-53eabf4cced4": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "f27eb7de-94e2-5a31-8d05-6a51a6485ffe": [
+        "sq--src-components-post-cover-index-jsx"
+      ],
+      "1452dbe1-4acb-5e17-b995-ec406a0ef10e": [
+        "/big-sample-test"
+      ],
+      "8e4d48db-748f-556e-a554-757dc339af45": [
+        "/introducing-gatsby-material-starter"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/",
+        "/categories/moar/",
+        "/categories/gatsby/",
+        "/tags/test/",
+        "/tags/huge/",
+        "/tags/gatsby/",
+        "/tags/material/",
+        "/tags/starter/"
+      ],
+      "File": [
+        "sq--src-components-post-cover-index-jsx"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "categories-moar-1a3": "449/path---categories-moar-1-a-3-ffc-NXh6kTdmHn8fEC4LMcUDQmTM7ec",
+    "categories-gatsby-980": "882/path---categories-gatsby-980-344-XCPlgJXeQsTOQXWtCLPZNuvSMQ",
+    "index": "808/path---index-6a9-VMoZdpyGpUcQ60s1qFLpkZqos",
+    "big-sample-test-be1": "570/path---big-sample-test-be-1-a84-yXqrujRC1trIYFXygpLySutqjto",
+    "introducing-gatsby-material-starter-c41": "285/path---introducing-gatsby-material-starter-c-41-9a5-DEmXxZtrPBfcDZnfSHlPLqfmc48",
+    "tags-test-7c5": "213/path---tags-test-7-c-5-3e3-NMomWd63BV5sDCj8deaXfmYYZQ",
+    "sq--src-components-post-cover-index-jsx": 590853412,
+    "tags-gatsby-b93": "994/path---tags-gatsby-b-93-350-zJeV9X708ONaPgMb49cTsJlo",
+    "tags-huge-691": "659/path---tags-huge-691-a31-fBUHJFCG03UchpSaqdvehkKa8g",
+    "tags-material-5bc": "804/path---tags-material-5-bc-a14-SW5ksmg4D1ZS00tSnvtmWBx9AWk",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "tags-starter-aed": "290/path---tags-starter-aed-cd5-v7KtxcGVFzoOpxeys8pwjqSHA",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/jon/Source/civichackathons/src/templates/post.jsx": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    timeToRead\n    excerpt\n    frontmatter {\n      title\n      cover\n      date\n      category\n      tags\n    }\n    fields {\n      nextTitle\n      nextSlug\n      prevTitle\n      prevSlug\n      slug\n      date\n    }\n  }\n}\n",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/post.jsx"
+    },
+    "/home/jon/Source/civichackathons/src/templates/tag.jsx": {
+      "query": "query TagPage(\n  $tag: String\n) {\n  allMarkdownRemark(limit: 1000, sort: {fields: [fields___date], order: DESC}, filter: {frontmatter: {tags: {in: [$tag]}}}) {\n    totalCount\n    edges {\n      node {\n        fields {\n          slug\n          date\n        }\n        excerpt\n        timeToRead\n        frontmatter {\n          title\n          tags\n          cover\n          date\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/tag.jsx"
+    },
+    "/home/jon/Source/civichackathons/src/templates/category.jsx": {
+      "query": "query CategoryPage(\n  $category: String\n) {\n  allMarkdownRemark(limit: 1000, sort: {fields: [fields___date], order: DESC}, filter: {frontmatter: {category: {eq: $category}}}) {\n    totalCount\n    edges {\n      node {\n        fields {\n          slug\n          date\n        }\n        excerpt\n        timeToRead\n        frontmatter {\n          title\n          tags\n          cover\n          date\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/jon/Source/civichackathons/src/templates/category.jsx"
+    },
+    "/home/jon/Source/civichackathons/src/pages/about.jsx": {
+      "query": "",
+      "componentPath": "/home/jon/Source/civichackathons/src/pages/about.jsx"
+    },
+    "/home/jon/Source/civichackathons/src/pages/index.jsx": {
+      "query": "query IndexQuery {\n  allMarkdownRemark(limit: 2000, sort: {fields: [fields___date], order: DESC}) {\n    edges {\n      node {\n        fields {\n          slug\n          date\n        }\n        excerpt\n        timeToRead\n        frontmatter {\n          title\n          tags\n          cover\n          date\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/jon/Source/civichackathons/src/pages/index.jsx"
+    },
+    "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/home/jon/Source/civichackathons/node_modules/gatsby-plugin-offline/app-shell.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-post-cover-index-jsx": {
+      "name": "CoverQuery",
+      "componentPath": "/home/jon/Source/civichackathons/src/components/PostCover/index.jsx",
+      "id": "sq--src-components-post-cover-index-jsx",
+      "jsonName": "sq--src-components-post-cover-index-jsx",
+      "query": "query CoverQuery {\n  allFile {\n    edges {\n      node {\n        id\n        absolutePath\n        childImageSharp {\n          id\n          resolutions {\n            base64\n            tracedSVG\n            aspectRatio\n            width\n            height\n            src\n            srcSet\n            srcWebp\n            srcSetWebp\n            originalName\n          }\n          internal {\n            contentDigest\n            type\n            owner\n          }\n          fluid(maxWidth: 1240) {\n            ...GatsbyImageSharpFluid\n            originalName\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 590853412
+    }
+  }
+}
